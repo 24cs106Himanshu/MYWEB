@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><title>Contact Us</title></head>
-<body bgcolor="lightgrey">
-  <h1>Contact Us</h1>
-  <form action="#" method="post">
-    <label>Name: <input type="text" name="name" required></label><br>
-    <label>Email: <input type="email" name="email" required></label><br>
-    <label>Message:<br><textarea name="message" rows="4" required></textarea></label><br>
-    <button type="submit">Send</button>
-  </form>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us – Student Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content-wrapper">
+            <h1>Contact Us</h1>
+            
+            <div class="dashboard-grid">
+                <div class="dashboard-card">
+                    <h3>📧 Get in Touch</h3>
+                    <p>Have questions or need support? Fill out the form below and we'll get back to you as soon as possible.</p>
+                </div>
+                
+                <div class="dashboard-card">
+                    <h3>📞 Contact Information</h3>
+                    <ul>
+                        <li><strong>Email:</strong> support@charusat.edu.in</li>
+                        <li><strong>Phone:</strong> +91 2697 265011</li>
+                        <li><strong>Office Hours:</strong> Mon-Fri 9:00 AM - 5:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <form action="#" method="post">
+                <h3>Send us a Message</h3>
+                <label>Name: 
+                    <input type="text" name="name" required>
+                </label>
+                <label>Email: 
+                    <input type="email" name="email" required>
+                </label>
+                <label>Subject:
+                    <input type="text" name="subject" required>
+                </label>
+                <label>Message:
+                    <textarea name="message" rows="5" required placeholder="Please describe your question or concern..."></textarea>
+                </label>
+                <button type="submit">Send Message</button>
+            </form>
+            
+            <div class="profile-section">
+                <h3>🏫 Campus Address</h3>
+                <p>
+                    <strong>Charotar University of Science and Technology</strong><br>
+                    CHARUSAT Campus, Changa<br>
+                    Petlad, Anand - 388421<br>
+                    Gujarat, India
+                </p>
+            </div>
+            
+            <div class="text-center mt-20">
+                <nav>
+                    <ul>
+                        <li><a href="dashboard.html">← Back to Dashboard</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
